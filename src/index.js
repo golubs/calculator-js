@@ -1,10 +1,10 @@
-alert("Hallo fische");
+alert("Hallo Welt");
 
 const primaryColor = "red";
-const primaryColor = "blue";
+const secondaryColor = "blue";
 let anotherColor = "yellow";
 
-alert(primaryColor);
+alert("primaryColor");
 
 const firstElement = document.querySelector("[name=first]");
 firstElement.value = "619";
@@ -15,14 +15,15 @@ const sum = firstElement.value + secondElement.value;
 alert(firstElement.value);
 alert(secondElement.value);
 
-const sum = parseInt(firstElement.value) + parseInt(secondElement);
-const sum = parseInt(firstElement.value) - parseInt(secondElement);
-
 alert(sum);
+
+const sum2 = parseInt(firstElement.value) + parseInt(secondElement.value);
+
+alert(sum2);
 
 const submitButton = document.querySelector(".submit");
 
 submitButton.addEventListener("click", function() {
-  const sum = parseInt(firstElement.value) - parseInt(secondInput.value);
-  alert(sum);
+  const sum3 = parseInt(firstElement.value) - parseInt(secondElement.value);
+  alert(sum3);
 });
