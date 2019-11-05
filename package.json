@@ -1,0 +1,24 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Taschenrechner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golubs/calculator-js.git"
+  },
+  "author": "Oleg Golubs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/golubs/calculator-js/issues"
+  },
+  "homepage": "https://github.com/golubs/calculator-js#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
