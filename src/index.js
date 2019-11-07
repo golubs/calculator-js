@@ -1,6 +1,7 @@
+// Dieser Code ist für Lernzwecke geschrieben
 "use strict";
 
-import { sum, difference, product, quotient } from "./lib/operators";
+import { sum, sub, multiply, divide } from "./lib/operators";
 
 const primaryColor = "red";
 const secondaryColor = "blue";
@@ -75,9 +76,9 @@ function getInput() {
   };
 }
 
-suButton.addEventListener("click", function() {
+subtractionButton.addEventListener("click", function() {
   const numbers = getInput();
-  result.innerHTML = sub(number.first, numbers.second);
+  result.innerHTML = sub(numbers.first, numbers.second);
 });
 
 // This would also work with arrow-functions
