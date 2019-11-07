@@ -27,4 +27,3 @@ test("count digits of 0", function() {
   const result = countDigits(0);
   expect(result).toBe(1);
 });
-
